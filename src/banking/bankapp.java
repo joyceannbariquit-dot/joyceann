@@ -3,7 +3,7 @@ package banking;
 
 
 public class bankapp {
-     int accountNo = 10001;
+     int accountNo = 100021;
     String name;
     float initialBalance = 0;
     int pin = 1234;

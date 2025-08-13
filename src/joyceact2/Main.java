@@ -2,6 +2,7 @@
 
 package joyceact2;
 
+import banking.bankapp;
 import java.util.Scanner;
 
 
@@ -21,7 +22,7 @@ public class Main {
         
         switch(choice){
             case 1:
-            Banking bc = new Banking();
+            bankapp bc = new bankapp();
             int attempts = 3;
 
                 while (attempts > 0) {  
